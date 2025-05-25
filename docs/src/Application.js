@@ -8,6 +8,7 @@ import { RibbonContainer, Ribbon } from "react-ribbons";
 
 const Application = () => {
   const [side, setSide] = useState("left");
+  // const [side, setSide] = useState("left");
   const [type, setType] = useState("corner");
   const [size, setSize] = useState("normal");
   const [backgroundColor, setBackgroundColor] = useState("#cc0000");
